@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.1 on win32)" generated="2024-04-13T12:36:34.710482" rpa="false" schemaversion="5">
+<suite id="s1" name="TestSuite" source="C:\Users\AndrejeI1\Documents\Robot_framework\Tests\Basics\TestSuite.robot">
+<test id="s1-t1" name="TEST1" line="7">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-04-13T12:36:34.784304" level="INFO">Dzień dobry kursanci, hello test</msg>
+<arg>Dzień dobry kursanci, hello test</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-04-13T12:36:34.783313" elapsed="0.000991"/>
+</kw>
+<tag>eng</tag>
+<tag>hello</tag>
+<tag>web</tag>
+<status status="PASS" start="2024-04-13T12:36:34.782300" elapsed="0.002991"/>
+</test>
+<test id="s1-t2" name="TEST2" line="11">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-04-13T12:36:34.788284" level="INFO">Witam w drugim teście</msg>
+<arg>Witam w drugim teście</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-04-13T12:36:34.787303" elapsed="0.000981"/>
+</kw>
+<kw name="Remove Tags" owner="BuiltIn">
+<msg time="2024-04-13T12:36:34.789282" level="INFO">Removed tag 'hello'.</msg>
+<arg>hello</arg>
+<doc>Removes given ``tags`` from the current test or all tests in a suite.</doc>
+<status status="PASS" start="2024-04-13T12:36:34.788284" elapsed="0.000998"/>
+</kw>
+<tag>pl</tag>
+<tag>web</tag>
+<status status="PASS" start="2024-04-13T12:36:34.786289" elapsed="0.003992"/>
+</test>
+<doc>Nasz pierwszy Test Suite</doc>
+<status status="PASS" start="2024-04-13T12:36:34.714482" elapsed="0.076800"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">eng</stat>
+<stat pass="1" fail="0" skip="0">hello</stat>
+<stat pass="1" fail="0" skip="0">pl</stat>
+<stat pass="2" fail="0" skip="0">web</stat>
+</tag>
+<suite>
+<stat pass="2" fail="0" skip="0" id="s1" name="TestSuite">TestSuite</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
